@@ -1,0 +1,185 @@
+{
+  "siteTitle": "Green Healing / Alinggo S.L. Lee",
+  "lessons": [
+    {
+      "id": "W1",
+      "title": "Course Introduction: What Is Green Healing?",
+      "cover": "data/img/1-森林療癒.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W2",
+      "title": "Seasonal Awareness: Solar Terms and Green Healing",
+      "cover": "data/img/2-少女.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W3",
+      "title": "Solar Terms & Self Connection",
+      "cover": "data/img/3-Solar Terms.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W4",
+      "title": "Green Healing Practice",
+      "cover": "data/img/4- 綠色食療.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W5",
+      "title": "Solitary Bee Workshop: Understanding & Making",
+      "cover": "data/img/5-獨居蜂.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W6",
+      "title": "Reflection & Meaning: From Bees to Life",
+      "cover": "data/img/6-獨居蜂旅館.jpeg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W7",
+      "title": "Green Healing USR: First Meeting",
+      "cover": "data/img/7-相見歡 綠色療癒設計盆栽.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W8",
+      "title": "Empathy Map: Reflecting on Experience",
+      "cover": "data/img/8-同理心地圖.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W9",
+      "title": "Persona: Refining Understanding through Interview",
+      "cover": "data/img/9-人物誌.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W10",
+      "title": "Adolescent Development Narrative: Writing the Self",
+      "cover": "data/img/10青春期發展史.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W11",
+      "title": "Adolescent Narrative Sharing & Ethical Listening",
+      "cover": "data/img/11-圖卡 風雨中等爸媽的孩子.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W12",
+      "title": "Visualizing Life Stories: From Narrative to Creative Expression",
+      "cover": "data/img/12-圖卡 經痛法寶.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W13",
+      "title": "Green Healing Workshop I: Experiential Food Therapy and Practice",
+      "cover": "data/img/13-綠療保健工坊.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W14",
+      "title": "Green Healing Workshop II: Reflection and Program Design",
+      "cover": "data/img/14-綠療食療工坊jpg.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W15",
+      "title": "PBL Phase I: Integrating Design Thinking into Green Healing Project Design",
+      "cover": "data/img/15-project.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W16",
+      "title": "Field-Based Green Healing Project Implementation",
+      "cover": "data/img/16-方案設計規劃.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W17",
+      "title": "Project Refinement & Creative Production",
+      "cover": "data/img/17-方案執行.jpg",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    },
+    {
+      "id": "W18",
+      "title": "Final Presentation, Appreciation & Future Vision",
+      "cover": "data/img/18慶賀.png",
+      "objectiveImage": "",
+      "sections": [
+        "content",
+        "esp"
+      ]
+    }
+  ]
+}

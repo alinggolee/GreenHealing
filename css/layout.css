@@ -1,0 +1,321 @@
+/* ========================================
+   GLOBAL HEADER
+   ======================================== */
+.global-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: var(--color-bg);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    padding: 0 var(--space-md);
+    z-index: 200;
+}
+
+.global-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/* ========================================
+   PAGE LAYOUT
+   ======================================== */
+.page-wrapper {
+    display: flex;
+    min-height: calc(100vh - 50px);
+    /* Offset moved to body padding */
+}
+
+.main-content {
+    flex: 1;
+    min-width: 0;
+}
+
+/* ========================================
+   CONTENT AREA
+   ======================================== */
+/* ========================================
+   CONTENT AREA
+   ======================================== */
+.content-area {
+    padding: var(--space-xl);
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Directory Page specific overrides */
+body.is-directory .content-area {
+    padding: var(--space-md);
+    /* Reduce padding */
+    max-width: 1400px;
+    /* Allow wider content */
+}
+
+/* ========================================
+   SIDEBAR
+   ======================================== */
+.sidebar {
+    /* Sticky under global header */
+    position: sticky;
+    top: 50px;
+    /* Header height */
+    width: var(--sidebar-width);
+    height: calc(100vh - 50px);
+    background: var(--color-bg-sidebar);
+    border-right: 1px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    overflow-y: auto;
+    flex-shrink: 0;
+    transition: margin-left var(--transition-fast), transform var(--transition-fast);
+}
+
+/* ... existing sidebar styles ... */
+
+/* ========================================
+   TOP NAVIGATION (Content Bar)
+   ======================================== */
+.top-nav {
+    position: sticky;
+    top: 50px;
+    /* Sticky relative to main-content scrolling container */
+    /* Below global header */
+    height: 40px;
+    /* "Content top bar lower a bit" - maybe shorter? or just positioned lower */
+    background: var(--color-bg-nav);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    align-items: center;
+    padding: 0 var(--space-md);
+    gap: var(--space-sm);
+    z-index: 50;
+}
+
+.sidebar.hidden {
+    display: none;
+}
+
+/* Collapsed state: width 60px */
+.sidebar.collapsed {
+    width: 60px;
+}
+
+/* Hide specific text elements in collapsed state */
+.sidebar.collapsed .lesson-title,
+.sidebar.collapsed .back-text,
+.sidebar.collapsed .sidebar-breadcrumb {
+    display: none;
+}
+
+/* Center icons in collapsed state */
+.sidebar.collapsed .sidebar-header {
+    justify-content: center;
+    padding: 10px 0;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar.collapsed .sidebar-back-btn {
+    justify-content: center;
+    padding: 0;
+    width: auto;
+}
+
+.sidebar.collapsed .sidebar-lesson-btn {
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+}
+
+.sidebar-header-container {
+    /* Container for header + breadcrumb */
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-header {
+    padding: var(--space-md);
+    border-bottom: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+    /* Ensure space for toggle */
+}
+
+/* Collapsed state adjustments */
+.sidebar.collapsed .sidebar-header {
+    justify-content: center;
+    padding: 10px 0;
+    flex-direction: column;
+    gap: 15px;
+    /* Space between toggle and back button */
+}
+
+.sidebar.collapsed .sidebar-toggle {
+    margin: 0;
+    /* Center it */
+}
+
+.sidebar.collapsed .sidebar-breadcrumb {
+    display: none;
+}
+
+.sidebar.collapsed .back-text {
+    display: none;
+}
+
+/* Ensure icon separates from text */
+.sidebar-back-btn .icon {
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+.sidebar-back-btn {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    width: 100%;
+    padding: var(--space-sm) var(--space-md);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.sidebar-back-btn:hover {
+    color: var(--color-text);
+}
+
+.sidebar-lessons {
+    padding: var(--space-sm);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.sidebar-lesson-btn {
+    display: block;
+    width: 100%;
+    padding: 10px var(--space-md);
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    transition: color var(--transition-fast);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sidebar-lesson-btn:hover {
+    color: var(--color-text);
+}
+
+.sidebar-lesson-btn.active {
+    color: var(--lesson-color);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* ========================================
+   TOP NAVIGATION
+   ======================================== */
+/* CSS Cleaned up */
+
+/* "Content top bar lower a bit" - If user means SHORTER height on content pages? 
+   Or maybe just ensure it's not too tall. 50px is reasonable. */
+body:not(.is-directory) .top-nav {
+    height: 50px;
+}
+
+.top-nav.hidden {
+    display: none;
+}
+
+.nav-btn {
+    padding: 4px var(--space-md);
+    font-size: var(--font-size-sm);
+    color: var(--color-text-muted);
+    transition: color var(--transition-fast);
+}
+
+.nav-btn:hover {
+    color: var(--color-text);
+}
+
+.nav-btn.active {
+    color: var(--lesson-color);
+    font-weight: var(--font-weight-semibold);
+    border-bottom: 2px solid var(--lesson-color);
+}
+
+/* ========================================
+   THEME TOGGLE & MOBILE TOGGLE
+   ======================================== */
+/* ========================================
+   THEME TOGGLE & MOBILE TOGGLE
+   ======================================== */
+.theme-toggle {
+    display: none;
+    /* Hide old if present */
+}
+
+/* Navbar Theme Toggle */
+.theme-toggle-btn {
+    font-size: 1.1rem;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.sidebar-toggle {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    color: var(--color-text-secondary);
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 0;
+    transition: all 0.2s ease;
+}
+
+.sidebar-toggle:hover {
+    background: var(--color-bg-hover, rgba(0, 0, 0, 0.05));
+    color: var(--color-text);
+}
+
+/* When sidebar is collapsed, move toggle to center of the remaining strip? 
+   No, it should probably be part of the header. 
+   If sidebar is collapsed (60px), header might need adjustment. */
+.sidebar.collapsed .sidebar-header {
+    padding: 10px 5px;
+    justify-content: center;
+}
+
+/* Hide back button in collapsed state if it takes too much space? 
+   Or just show icon. (Handled above by span:not(.icon) display:none) */
+
+/* Mobile Directory Logic */
+@media (max-width: 768px) {
+    body.is-directory .sidebar-toggle {
+        display: none !important;
+    }
+
+    body.is-directory .sidebar {
+        display: none !important;
+    }
+
+    body.is-directory .main-content.with-sidebar {
+        margin-left: 0 !important;
+    }
+}

@@ -1,0 +1,104 @@
+/* ========================================
+   DESIGN TOKENS
+   ======================================== */
+:root {
+    --color-bg: #fdfbf7;
+    --color-bg-secondary: #f6f3ee;
+    --color-bg-card: #fdfbf7;
+    --color-bg-sidebar: #faf8f4;
+    --color-bg-nav: rgba(253, 251, 247, 0.92);
+    --color-surface: #f3f0ea;
+    --color-surface-hover: #eae6de;
+    --color-text: #2c2c2c;
+    --color-text-secondary: #555;
+    --color-text-muted: #999;
+    --color-border: #ddd;
+    --color-border-hover: #bbb;
+    --color-shadow: rgba(0, 0, 0, 0.04);
+    --color-overlay: rgba(0, 0, 0, 0.25);
+
+    --space-xs: 0.25rem;
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4rem;
+
+    --font-family: 'Inter', 'Noto Sans TC', system-ui, -apple-system, sans-serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.375rem;
+    --font-size-2xl: 1.75rem;
+    --font-size-3xl: 2rem;
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --line-height: 1.65;
+
+    --duration-fast: 100ms;
+    --transition-fast: var(--duration-fast) ease;
+
+    --sidebar-width: 200px;
+    --nav-height: 48px;
+    /* Kept 48px but will reduce padding in layout */
+    --content-max-width: 960px;
+    /* Increased max width slightly for better margins */
+
+    --lesson-hue: 220;
+    --lesson-sat: 55%;
+    --lesson-color: hsl(var(--lesson-hue), var(--lesson-sat), 46%);
+    --lesson-color-hover: hsl(var(--lesson-hue), var(--lesson-sat), 36%);
+    --lesson-color-light: hsl(var(--lesson-hue), 30%, 95%);
+    --lesson-color-muted: hsl(var(--lesson-hue), 20%, 60%);
+}
+
+[data-theme="dark"] {
+    --color-bg: #181818;
+    --color-bg-secondary: #1f1f1f;
+    --color-bg-card: #181818;
+    --color-bg-sidebar: #1c1c1c;
+    --color-bg-nav: rgba(24, 24, 24, 0.92);
+    --color-surface: #282828;
+    --color-surface-hover: #333;
+    --color-text: #e0ddd8;
+    --color-text-secondary: #a0a0a0;
+    --color-text-muted: #666;
+    --color-border: #333;
+    --color-border-hover: #555;
+    --color-shadow: rgba(0, 0, 0, 0.2);
+    --color-overlay: rgba(0, 0, 0, 0.5);
+
+    --lesson-color: hsl(var(--lesson-hue), var(--lesson-sat), 62%);
+    --lesson-color-hover: hsl(var(--lesson-hue), var(--lesson-sat), 55%);
+    --lesson-color-light: hsl(var(--lesson-hue), 20%, 18%);
+    --lesson-color-muted: hsl(var(--lesson-hue), 25%, 50%);
+}
+
+[data-color="green"] {
+    --lesson-hue: 152;
+    --lesson-sat: 50%;
+}
+
+[data-color="blue"] {
+    --lesson-hue: 215;
+    --lesson-sat: 55%;
+}
+
+[data-color="purple"] {
+    --lesson-hue: 260;
+    --lesson-sat: 48%;
+}
+
+[data-color="red"] {
+    --lesson-hue: 6;
+    --lesson-sat: 58%;
+}
+
+[data-color="yellow"] {
+    --lesson-hue: 38;
+    --lesson-sat: 65%;
+}
