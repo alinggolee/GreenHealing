@@ -62,3 +62,13 @@ connection(連結)
 
 ## ESP Vocabulary(中英)
 
+| English | 中文 |
+| --- | --- |
+| solar terms | 節氣 |
+| seasonal rhythm | 季節節律 |
+| observation | 觀察 |
+| adjustment | 調適 |
+| balance | 平衡 |
+| body awareness | 身體覺察 |
+| environmental change | 環境變化 |
+| wellbeing | 身心福祉 |

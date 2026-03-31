@@ -63,5 +63,15 @@ a way of thinking(思考方式)
 a way of connecting(連結方式)
 a way of caring(照顧方式)
 
-## ESP Vocabulary 專業字彙
+## ESP Vocabulary
 
+| English | 中文 |
+| --- | --- |
+| green healing | 綠色療癒 |
+| wellbeing | 身心福祉 |
+| reflection | 反思 |
+| field practice | 場域實作 |
+| program design | 方案設計 |
+| self-care | 自我照顧 |
+| engagement | 參與 |
+| environment | 環境 |

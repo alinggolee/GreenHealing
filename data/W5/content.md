@@ -57,3 +57,10 @@ Understanding → Action → Responsibility
 
 ## ESP Vocabulary(中英)
 
+| English | 中文 |
+| --- | --- |
+| solitary bee | 獨居蜂 |
+| social bee | 群居蜂 |
+| pollination | 授粉 |
+| habitat | 棲地 |
+| life cycle | 生命週期 |

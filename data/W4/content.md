@@ -58,6 +58,21 @@ take action(採取行動)
 
 ## ESP Vocabulary(中英)
 
+| English | 中文 |
+| --- | --- |
+| herbal drink | 草本飲品 |
+| cooling | 降溫 |
+| detox | 排毒 |
+| ingredient | 材料 |
+| body response | 身體反應 |
+
+| English | 中文 |
+| --- | --- |
+| solitary bee | 獨居蜂 |
+| social bee | 群居蜂 |
+| pollination | 授粉 |
+| habitat | 棲地 |
+| life cycle | 生命週期 |
 
 ## D — Delivery
 

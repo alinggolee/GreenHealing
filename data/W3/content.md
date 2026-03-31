@@ -55,3 +55,10 @@ You are part of nature’s rhythm.
 
 ## ESP Vocabulary(中英)
 
+| English | 中文 |
+| --- | --- |
+| Solar Term | 節氣 |
+| seasonal rhythm | 季節節律 |
+| balance | 平衡 |
+| reflection | 反思 |
+| lifestyle | 生活方式 |

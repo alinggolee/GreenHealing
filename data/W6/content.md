@@ -59,3 +59,10 @@ connection(連結)
 
 ## ESP Vocabulary(中英)
 
+| English | 中文 |
+| --- | --- |
+| independence | 獨立 |
+| responsibility | 責任 |
+| ecosystem | 生態系 |
+| relationship | 關係 |
+| survival | 生存 |
